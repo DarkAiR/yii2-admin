@@ -10,7 +10,7 @@ php composer.phar require darkair/yii2-admin:dev-master
 In config file:
 
 ```php
-'bootstrap' => ['madmin'],
+'bootstrap' => ['admin'],
 'components' => [
     'admin' => [
         'class' => 'darkair\admin\Module',
