@@ -40,7 +40,6 @@ In config file:
 1. Create CRUD models via gii. You must to have ```<YourModel>.php``` and ```<YourModel>Search.php``` classes at least.
 
 2. Make your admin controller:
-
 ```php
 class YourAdminController extends \darkair\admin\AdminController
 {
@@ -55,9 +54,8 @@ class YourAdminController extends \darkair\admin\AdminController
 ```
 
 3. Create rules like this or on another:
-
 ```php
-        Yii::$app->urlManager->addRules([
-            '/admin/YOUR_ROUTE/<action:\w+>/' => 'YOUR_ADMIN_MODULE/YOUR_CONTROLLER/<action>',
-        ], false);
+Yii::$app->urlManager->addRules([
+    '/admin/YOUR_ROUTE/<action:\w+>/' => 'YOUR_ADMIN_MODULE/YOUR_CONTROLLER/<action>',
+], false);
 ```
