@@ -15,7 +15,7 @@
         "yiisoft/yii2": "^2.0.6",
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-twig": "^2.0",
-        "dektrium/yii2-rbac": "^1.0.*@dev",
+        "dektrium/yii2-rbac": "^1.0.0@dev",
         "dektrium/yii2-user": "^0.9.12",
         "e96/yii2-madmin": "^0.3.0",
         "darkair/yii2-admin": "dev-master"
