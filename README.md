@@ -11,7 +11,7 @@ In config file:
 
 ```php
 'bootstrap' => ['admin'],
-'components' => [
+'modules' => [
     'admin' => [
         'class' => 'darkair\admin\Module',
     ],
