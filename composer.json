@@ -1,0 +1,23 @@
+{
+    "name": "darkair/yii2-admin",
+    "description": "Yii2 admin panel extension based on madmin extension",
+    "keywords": ["yii2", "yii2-admin", "admin", "darkair"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry DarkAiR Romanov",
+            "email": "darkair@list.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "e96/yii2-madmin": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "darkair\\admin\\": "src/"
+        }
+    }
+}
