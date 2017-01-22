@@ -3,7 +3,7 @@ Yii2 admin backend panel
 
 ##Install
 ```
-php composer.phar required darkair/yii2-admin:dev-master
+php composer.phar require darkair/yii2-admin:dev-master
 ```
 
 ## Setup
