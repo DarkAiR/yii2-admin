@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\admin\controllers;
+namespace darkair\admin\controllers;
 
 use Yii;
 use yii\web\NotFoundHttpException;
