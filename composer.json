@@ -20,7 +20,6 @@
         "e96/yii2-madmin": "^0.3.0",
         "darkair/yii2-admin": "dev-master"
     },
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "darkair\\admin\\": "src/"
