@@ -5,6 +5,7 @@ Yii2 admin panel based on MAdmin backend admin engine and RBAC.
 
 ##Install
 ```
+php composer.phar require dektrium/yii2-rbac:1.0.0-alpha@dev
 php composer.phar require darkair/yii2-admin:dev-master
 ```
 
@@ -34,6 +35,12 @@ In config file:
         ]
     ]
 ]
+```
+
+Migrate:
+
+```php
+php yii migrate/up --migrationPath=@yii/rbac/migrations
 ```
 
 ## Usage
